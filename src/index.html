@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+
+    <title>cyrpto checker</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+    
+      <div class="jumbotron text-center">
+        <h1 id="proj">Bitcoin Price Checker</h1>
+      </div>
+
+      
+      <div class="row row-relative">
+         
+          <div class="col-sm-4">
+              <p>Refresh Rate:  <input id="refreshVal" value="15" size="5"></p>
+              <button type="button" class="btn btn-primary" id="refreshBtn">Set Refresh Rate</button>
+          </div>
+        
+          <div class="col-sm-4 col-border">
+            <div class = "col-border-padding">
+              <p class="subtext">Current BTC USD</p>
+              <h1 id="price">Loading...</h1>
+            </div>
+          </div>
+          <div class="col-sm-4 col-border">
+              <div class = "col-border-padding">
+              <p>Target: <span id="targetPrice">Not Set</span></p>
+              <button type="button" class="btn btn-primary" id="notifyBtn">Set Nofication Value</button>
+              </div>
+          </div>
+      </div> <!-- end row -->
+
+      <div class="row row-relative">
+        <div class="col-sm-12">
+          <hr/>
+        </div>
+      </div>
+
+      <div class="row row-relative">
+        
+        <div class="col-sm-12">
+          <p>console</p>
+          <textarea cols="90" rows="5" id="console"></textarea>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- include backing js file -->
+    <script src="index.js"></script>
+
+    <!-- include the js files for bootstrap -->
+    <script src="renderer.js"></script>
+  </body>
+
+</html>

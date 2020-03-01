@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/add.css">
+    <title>set notification value</title>
+
+    <body>
+        <div class="container-fluid">
+            <p class="notify"><b>Notify me when BTC reaches...</b></p>
+            <div class="row row-relative">
+
+                <div class="col-sm-8">
+                    <p>Target Value: </p>
+                    <input id="notifyVal" placeholder="USD">
+                    <button id="updateBtn" class="btn-secondary">update</button>
+                </div>
+
+                
+                <div class="col-sm-4 col-border">
+                    <div class="col-border-padding">
+                    <p>close screen</p>
+                    <button id="closeBtn" class="btn-secondary">close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="add.js"></script>
+
+        <!-- include the js files for bootstrap -->
+        <script src="renderer.js"></script>
+    </body>
+</html>
