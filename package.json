@@ -12,14 +12,12 @@
   "license": "ISC",
   "devDependencies": {
     "axios": "^0.18.0",
-    "bootstrap": "^3.4.0",
-    "electron": "^4.0.1",
+    "bootstrap": "^3.4.1",
+    "electron": "^4.2.12",
     "electron-packager": "^13.0.1"
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "bootstrap": "^4.2.1",
-    "electron": "^4.0.1",
     "electron-notifications": "^1.0.0",
     "electron-packager": "^13.0.1",
     "jquery": "^3.3.1",
